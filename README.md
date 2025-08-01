@@ -13,7 +13,9 @@ This repository is intended to be layered on-top of an OpenWrt buildroot. If you
 
 This feed is enabled by default. Your feeds.conf.default (or feeds.conf) should contain a line like:
 
+```
 src-git luci https://github.com/BootLoopLover/packages.git
+```
 
 This feed is enabled by default. To install all its package definitions, run:
 ```
